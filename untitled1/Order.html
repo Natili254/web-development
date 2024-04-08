@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Form</title>
+</head>
+<body>
+<div class="wrapper">
+    <form action="#">
+        <h1>Place Order</h1>
+        <div class="input-box">
+            <h2><b>Item</b></h2>
+            <input type="text" placeholder="Order" name="Order" required>
+        </div>
+        <div class="input-box">
+            <h2>Quantity</h2>
+            <input type="number" placeholder="Quantity" name="quantity" required>
+        </div>
+
+        <button type="submit" class="loginbtn">Purchase</button>
+        <div class="payment"
+        <p>SELECT MODE OF PAYMENT</p>
+        <div class="payment-method">
+            <input type="radio" id="Credit" name="payment-method">
+            <label for="Credit">Credit card</label><br>
+            <input type="radio" id="Cash" name="payment-method">
+            <label for="Cash">Cash</label><br>
+            <input type="radio" id="Mpesa" name="payment-method">
+            <label for="Cash">Mpesa</label>
+        </div>
+        </div>
+
+    </form>
+<style>
+    *{
+        margin: 0;
+    }
+   .wrapper{
+       background-color: #0f9d58;
+       display: flex;
+   }
+</style>
+</div>
+
+</body>
+</html>
